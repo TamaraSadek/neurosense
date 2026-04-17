@@ -1,0 +1,680 @@
+{
+  "metadata": {
+    "schema_version": "0.2.0",
+    "generated_at": "2026-04-17T16:06:44Z",
+    "patient_token": "ns-95f9756b",
+    "report_period": {
+      "start": "2026-03-10T08:00:00Z",
+      "end": "2026-03-16T16:00:00Z"
+    },
+    "model_version": "neurosense-gmm-v0.1",
+    "n_training_sessions": 4855,
+    "n_test_sessions": 35,
+    "gmm_covariance_type": "full",
+    "classifier_notes": "GMM refit on all sessions except test holdout. motorState: 1=None 2=Mild 3=Moderate 4=Severe. conf = posterior of assigned label (%)."
+  },
+  "states": [
+    {
+      "ts": "2026-03-10T08:00:00Z",
+      "motorState": 2,
+      "conf": 64,
+      "n_windows": 11,
+      "confidence_tier": "high",
+      "motor_state_label": "Mild",
+      "motor_state": "ON",
+      "tremor_index": 0.002165,
+      "features": {
+        "mean_tremor_index": 0.002165,
+        "max_tremor_index": 0.003992,
+        "pct_windows_in_pd_band": 0.090909,
+        "mean_snr": 0.143389,
+        "mean_spectral_entropy": 0.893274
+      }
+    },
+    {
+      "ts": "2026-03-10T10:00:00Z",
+      "motorState": 1,
+      "conf": 95,
+      "n_windows": 7,
+      "confidence_tier": "high",
+      "motor_state_label": "None",
+      "motor_state": "ON",
+      "tremor_index": 0.00173,
+      "features": {
+        "mean_tremor_index": 0.00173,
+        "max_tremor_index": 0.003961,
+        "pct_windows_in_pd_band": 0.428571,
+        "mean_snr": 0.162597,
+        "mean_spectral_entropy": 0.915278
+      }
+    },
+    {
+      "ts": "2026-03-10T12:00:00Z",
+      "motorState": 3,
+      "conf": 100,
+      "n_windows": 8,
+      "confidence_tier": "high",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.006992,
+      "features": {
+        "mean_tremor_index": 0.006992,
+        "max_tremor_index": 0.017025,
+        "pct_windows_in_pd_band": 0.875,
+        "mean_snr": 0.169788,
+        "mean_spectral_entropy": 0.678725
+      }
+    },
+    {
+      "ts": "2026-03-10T14:00:00Z",
+      "motorState": 2,
+      "conf": 100,
+      "n_windows": 5,
+      "confidence_tier": "low",
+      "motor_state_label": "Mild",
+      "motor_state": "ON",
+      "tremor_index": 0.004183,
+      "features": {
+        "mean_tremor_index": 0.004183,
+        "max_tremor_index": 0.01226,
+        "pct_windows_in_pd_band": 0.6,
+        "mean_snr": 0.282009,
+        "mean_spectral_entropy": 0.895257
+      }
+    },
+    {
+      "ts": "2026-03-10T16:00:00Z",
+      "motorState": 1,
+      "conf": 91,
+      "n_windows": 10,
+      "confidence_tier": "high",
+      "motor_state_label": "None",
+      "motor_state": "ON",
+      "tremor_index": 0.001975,
+      "features": {
+        "mean_tremor_index": 0.001975,
+        "max_tremor_index": 0.003967,
+        "pct_windows_in_pd_band": 0.1,
+        "mean_snr": 0.02527,
+        "mean_spectral_entropy": 0.786679
+      }
+    },
+    {
+      "ts": "2026-03-11T08:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 5,
+      "confidence_tier": "low",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.059792,
+      "features": {
+        "mean_tremor_index": 0.059792,
+        "max_tremor_index": 0.281851,
+        "pct_windows_in_pd_band": 0.8,
+        "mean_snr": 0.115799,
+        "mean_spectral_entropy": 0.771555
+      }
+    },
+    {
+      "ts": "2026-03-11T10:00:00Z",
+      "motorState": 3,
+      "conf": 100,
+      "n_windows": 7,
+      "confidence_tier": "high",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.017418,
+      "features": {
+        "mean_tremor_index": 0.017418,
+        "max_tremor_index": 0.068006,
+        "pct_windows_in_pd_band": 0.857143,
+        "mean_snr": 0.019499,
+        "mean_spectral_entropy": 0.788274
+      }
+    },
+    {
+      "ts": "2026-03-11T12:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 9,
+      "confidence_tier": "high",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.491639,
+      "features": {
+        "mean_tremor_index": 0.491639,
+        "max_tremor_index": 1.519072,
+        "pct_windows_in_pd_band": 0.888889,
+        "mean_snr": 0.631202,
+        "mean_spectral_entropy": 0.552117
+      }
+    },
+    {
+      "ts": "2026-03-11T14:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 11,
+      "confidence_tier": "high",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.244215,
+      "features": {
+        "mean_tremor_index": 0.244215,
+        "max_tremor_index": 0.977959,
+        "pct_windows_in_pd_band": 0.818182,
+        "mean_snr": 0.341021,
+        "mean_spectral_entropy": 0.689953
+      }
+    },
+    {
+      "ts": "2026-03-11T16:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 11,
+      "confidence_tier": "high",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.02317,
+      "features": {
+        "mean_tremor_index": 0.02317,
+        "max_tremor_index": 0.2183,
+        "pct_windows_in_pd_band": 0.454545,
+        "mean_snr": 0.116223,
+        "mean_spectral_entropy": 0.873307
+      }
+    },
+    {
+      "ts": "2026-03-12T08:00:00Z",
+      "motorState": 1,
+      "conf": 98,
+      "n_windows": 4,
+      "confidence_tier": "low",
+      "motor_state_label": "None",
+      "motor_state": "ON",
+      "tremor_index": 0.001274,
+      "features": {
+        "mean_tremor_index": 0.001274,
+        "max_tremor_index": 0.00254,
+        "pct_windows_in_pd_band": 0.0,
+        "mean_snr": 0.041705,
+        "mean_spectral_entropy": 0.869044
+      }
+    },
+    {
+      "ts": "2026-03-12T10:00:00Z",
+      "motorState": 3,
+      "conf": 91,
+      "n_windows": 5,
+      "confidence_tier": "low",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.007449,
+      "features": {
+        "mean_tremor_index": 0.007449,
+        "max_tremor_index": 0.01383,
+        "pct_windows_in_pd_band": 0.2,
+        "mean_snr": 0.053032,
+        "mean_spectral_entropy": 0.808139
+      }
+    },
+    {
+      "ts": "2026-03-12T12:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 3,
+      "confidence_tier": "low",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.147507,
+      "features": {
+        "mean_tremor_index": 0.147507,
+        "max_tremor_index": 0.337645,
+        "pct_windows_in_pd_band": 1.0,
+        "mean_snr": 0.318683,
+        "mean_spectral_entropy": 0.513908
+      }
+    },
+    {
+      "ts": "2026-03-12T14:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 9,
+      "confidence_tier": "high",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.076674,
+      "features": {
+        "mean_tremor_index": 0.076674,
+        "max_tremor_index": 0.426236,
+        "pct_windows_in_pd_band": 0.444444,
+        "mean_snr": 0.237606,
+        "mean_spectral_entropy": 0.737871
+      }
+    },
+    {
+      "ts": "2026-03-12T16:00:00Z",
+      "motorState": 2,
+      "conf": 97,
+      "n_windows": 9,
+      "confidence_tier": "high",
+      "motor_state_label": "Mild",
+      "motor_state": "ON",
+      "tremor_index": 0.008876,
+      "features": {
+        "mean_tremor_index": 0.008876,
+        "max_tremor_index": 0.034544,
+        "pct_windows_in_pd_band": 0.222222,
+        "mean_snr": 0.208115,
+        "mean_spectral_entropy": 0.884574
+      }
+    },
+    {
+      "ts": "2026-03-13T08:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 8,
+      "confidence_tier": "high",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.074755,
+      "features": {
+        "mean_tremor_index": 0.074755,
+        "max_tremor_index": 0.338784,
+        "pct_windows_in_pd_band": 0.875,
+        "mean_snr": 0.130288,
+        "mean_spectral_entropy": 0.609391
+      }
+    },
+    {
+      "ts": "2026-03-13T10:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 3,
+      "confidence_tier": "low",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 1.036422,
+      "features": {
+        "mean_tremor_index": 1.036422,
+        "max_tremor_index": 2.541194,
+        "pct_windows_in_pd_band": 1.0,
+        "mean_snr": 0.603297,
+        "mean_spectral_entropy": 0.369936
+      }
+    },
+    {
+      "ts": "2026-03-13T12:00:00Z",
+      "motorState": 1,
+      "conf": 92,
+      "n_windows": 5,
+      "confidence_tier": "low",
+      "motor_state_label": "None",
+      "motor_state": "ON",
+      "tremor_index": 0.001519,
+      "features": {
+        "mean_tremor_index": 0.001519,
+        "max_tremor_index": 0.002464,
+        "pct_windows_in_pd_band": 0.4,
+        "mean_snr": 0.19767,
+        "mean_spectral_entropy": 0.906731
+      }
+    },
+    {
+      "ts": "2026-03-13T14:00:00Z",
+      "motorState": 1,
+      "conf": 99,
+      "n_windows": 3,
+      "confidence_tier": "low",
+      "motor_state_label": "None",
+      "motor_state": "ON",
+      "tremor_index": 0.001193,
+      "features": {
+        "mean_tremor_index": 0.001193,
+        "max_tremor_index": 0.002839,
+        "pct_windows_in_pd_band": 0.666667,
+        "mean_snr": 0.218736,
+        "mean_spectral_entropy": 0.892906
+      }
+    },
+    {
+      "ts": "2026-03-13T16:00:00Z",
+      "motorState": 1,
+      "conf": 100,
+      "n_windows": 6,
+      "confidence_tier": "high",
+      "motor_state_label": "None",
+      "motor_state": "ON",
+      "tremor_index": 0.001584,
+      "features": {
+        "mean_tremor_index": 0.001584,
+        "max_tremor_index": 0.004277,
+        "pct_windows_in_pd_band": 0.833333,
+        "mean_snr": 0.02202,
+        "mean_spectral_entropy": 0.886968
+      }
+    },
+    {
+      "ts": "2026-03-14T08:00:00Z",
+      "motorState": 3,
+      "conf": 97,
+      "n_windows": 5,
+      "confidence_tier": "low",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.004339,
+      "features": {
+        "mean_tremor_index": 0.004339,
+        "max_tremor_index": 0.014001,
+        "pct_windows_in_pd_band": 0.6,
+        "mean_snr": 0.004285,
+        "mean_spectral_entropy": 0.830258
+      }
+    },
+    {
+      "ts": "2026-03-14T10:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 11,
+      "confidence_tier": "high",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.516322,
+      "features": {
+        "mean_tremor_index": 0.516322,
+        "max_tremor_index": 3.706366,
+        "pct_windows_in_pd_band": 0.909091,
+        "mean_snr": 0.144949,
+        "mean_spectral_entropy": 0.649525
+      }
+    },
+    {
+      "ts": "2026-03-14T12:00:00Z",
+      "motorState": 3,
+      "conf": 96,
+      "n_windows": 9,
+      "confidence_tier": "high",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.007982,
+      "features": {
+        "mean_tremor_index": 0.007982,
+        "max_tremor_index": 0.035164,
+        "pct_windows_in_pd_band": 0.444444,
+        "mean_snr": 0.17123,
+        "mean_spectral_entropy": 0.788464
+      }
+    },
+    {
+      "ts": "2026-03-14T14:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 10,
+      "confidence_tier": "high",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.063134,
+      "features": {
+        "mean_tremor_index": 0.063134,
+        "max_tremor_index": 0.32569,
+        "pct_windows_in_pd_band": 0.4,
+        "mean_snr": 0.20486,
+        "mean_spectral_entropy": 0.808392
+      }
+    },
+    {
+      "ts": "2026-03-14T16:00:00Z",
+      "motorState": 3,
+      "conf": 73,
+      "n_windows": 11,
+      "confidence_tier": "high",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.028002,
+      "features": {
+        "mean_tremor_index": 0.028002,
+        "max_tremor_index": 0.155865,
+        "pct_windows_in_pd_band": 0.727273,
+        "mean_snr": 0.081046,
+        "mean_spectral_entropy": 0.818412
+      }
+    },
+    {
+      "ts": "2026-03-15T08:00:00Z",
+      "motorState": 1,
+      "conf": 97,
+      "n_windows": 7,
+      "confidence_tier": "high",
+      "motor_state_label": "None",
+      "motor_state": "ON",
+      "tremor_index": 0.000902,
+      "features": {
+        "mean_tremor_index": 0.000902,
+        "max_tremor_index": 0.004203,
+        "pct_windows_in_pd_band": 0.428571,
+        "mean_snr": 0.084352,
+        "mean_spectral_entropy": 0.86257
+      }
+    },
+    {
+      "ts": "2026-03-15T10:00:00Z",
+      "motorState": 2,
+      "conf": 98,
+      "n_windows": 10,
+      "confidence_tier": "high",
+      "motor_state_label": "Mild",
+      "motor_state": "ON",
+      "tremor_index": 0.006306,
+      "features": {
+        "mean_tremor_index": 0.006306,
+        "max_tremor_index": 0.024688,
+        "pct_windows_in_pd_band": 0.3,
+        "mean_snr": 0.064873,
+        "mean_spectral_entropy": 0.87705
+      }
+    },
+    {
+      "ts": "2026-03-15T12:00:00Z",
+      "motorState": 2,
+      "conf": 100,
+      "n_windows": 5,
+      "confidence_tier": "low",
+      "motor_state_label": "Mild",
+      "motor_state": "ON",
+      "tremor_index": 0.003488,
+      "features": {
+        "mean_tremor_index": 0.003488,
+        "max_tremor_index": 0.016506,
+        "pct_windows_in_pd_band": 0.2,
+        "mean_snr": 0.189512,
+        "mean_spectral_entropy": 0.913392
+      }
+    },
+    {
+      "ts": "2026-03-15T14:00:00Z",
+      "motorState": 3,
+      "conf": 99,
+      "n_windows": 11,
+      "confidence_tier": "high",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.012475,
+      "features": {
+        "mean_tremor_index": 0.012475,
+        "max_tremor_index": 0.044207,
+        "pct_windows_in_pd_band": 0.818182,
+        "mean_snr": 0.182023,
+        "mean_spectral_entropy": 0.861394
+      }
+    },
+    {
+      "ts": "2026-03-15T16:00:00Z",
+      "motorState": 1,
+      "conf": 99,
+      "n_windows": 6,
+      "confidence_tier": "high",
+      "motor_state_label": "None",
+      "motor_state": "ON",
+      "tremor_index": 0.000457,
+      "features": {
+        "mean_tremor_index": 0.000457,
+        "max_tremor_index": 0.001793,
+        "pct_windows_in_pd_band": 0.333333,
+        "mean_snr": 0.098003,
+        "mean_spectral_entropy": 0.897413
+      }
+    },
+    {
+      "ts": "2026-03-16T08:00:00Z",
+      "motorState": 2,
+      "conf": 100,
+      "n_windows": 3,
+      "confidence_tier": "low",
+      "motor_state_label": "Mild",
+      "motor_state": "ON",
+      "tremor_index": 0.003785,
+      "features": {
+        "mean_tremor_index": 0.003785,
+        "max_tremor_index": 0.011106,
+        "pct_windows_in_pd_band": 0.333333,
+        "mean_snr": 0.180664,
+        "mean_spectral_entropy": 0.919322
+      }
+    },
+    {
+      "ts": "2026-03-16T10:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 11,
+      "confidence_tier": "high",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.893326,
+      "features": {
+        "mean_tremor_index": 0.893326,
+        "max_tremor_index": 2.349483,
+        "pct_windows_in_pd_band": 0.909091,
+        "mean_snr": 0.57692,
+        "mean_spectral_entropy": 0.558961
+      }
+    },
+    {
+      "ts": "2026-03-16T12:00:00Z",
+      "motorState": 4,
+      "conf": 100,
+      "n_windows": 5,
+      "confidence_tier": "low",
+      "motor_state_label": "Severe",
+      "motor_state": "OFF",
+      "tremor_index": 0.417025,
+      "features": {
+        "mean_tremor_index": 0.417025,
+        "max_tremor_index": 1.545497,
+        "pct_windows_in_pd_band": 0.8,
+        "mean_snr": 0.492333,
+        "mean_spectral_entropy": 0.559456
+      }
+    },
+    {
+      "ts": "2026-03-16T14:00:00Z",
+      "motorState": 3,
+      "conf": 100,
+      "n_windows": 3,
+      "confidence_tier": "low",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.040537,
+      "features": {
+        "mean_tremor_index": 0.040537,
+        "max_tremor_index": 0.042347,
+        "pct_windows_in_pd_band": 0.0,
+        "mean_snr": 0.185984,
+        "mean_spectral_entropy": 0.716174
+      }
+    },
+    {
+      "ts": "2026-03-16T16:00:00Z",
+      "motorState": 3,
+      "conf": 100,
+      "n_windows": 6,
+      "confidence_tier": "high",
+      "motor_state_label": "Moderate",
+      "motor_state": "OFF",
+      "tremor_index": 0.018287,
+      "features": {
+        "mean_tremor_index": 0.018287,
+        "max_tremor_index": 0.048667,
+        "pct_windows_in_pd_band": 0.5,
+        "mean_snr": 0.217349,
+        "mean_spectral_entropy": 0.832468
+      }
+    }
+  ],
+  "gmm_label_stats": {
+    "None": {
+      "motor_state_int": 1,
+      "n_sessions": 2152,
+      "mean_tremor_index": 0.00107,
+      "std_tremor_index": 0.000618,
+      "centroid": {
+        "mean_tremor_index": 0.001075,
+        "max_tremor_index": 0.002613,
+        "pct_windows_in_pd_band": 0.383645,
+        "mean_snr": 0.205874,
+        "mean_spectral_entropy": 0.887484
+      }
+    },
+    "Mild": {
+      "motor_state_int": 2,
+      "n_sessions": 1552,
+      "mean_tremor_index": 0.004429,
+      "std_tremor_index": 0.002205,
+      "centroid": {
+        "mean_tremor_index": 0.004387,
+        "max_tremor_index": 0.014015,
+        "pct_windows_in_pd_band": 0.352553,
+        "mean_snr": 0.229034,
+        "mean_spectral_entropy": 0.879149
+      }
+    },
+    "Moderate": {
+      "motor_state_int": 3,
+      "n_sessions": 968,
+      "mean_tremor_index": 0.022966,
+      "std_tremor_index": 0.018523,
+      "centroid": {
+        "mean_tremor_index": 0.022692,
+        "max_tremor_index": 0.05973,
+        "pct_windows_in_pd_band": 0.382578,
+        "mean_snr": 0.186488,
+        "mean_spectral_entropy": 0.786312
+      }
+    },
+    "Severe": {
+      "motor_state_int": 4,
+      "n_sessions": 183,
+      "mean_tremor_index": 0.185235,
+      "std_tremor_index": 0.257368,
+      "centroid": {
+        "mean_tremor_index": 0.183103,
+        "max_tremor_index": 0.663917,
+        "pct_windows_in_pd_band": 0.744547,
+        "mean_snr": 0.258149,
+        "mean_spectral_entropy": 0.700266
+      }
+    }
+  },
+  "summary_stats": {
+    "avg_on_time_pct": 40,
+    "avg_off_time_pct": 60,
+    "mean_tremor_index": 0.120769,
+    "classifier_high_confidence_pct": 63,
+    "days_monitored": 7,
+    "label_distribution": {
+      "Mild": 6,
+      "None": 8,
+      "Moderate": 9,
+      "Severe": 12
+    }
+  }
+}
